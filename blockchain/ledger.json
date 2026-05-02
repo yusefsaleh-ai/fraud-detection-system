@@ -1,0 +1,77 @@
+[
+    {
+        "index": 0,
+        "timestamp": "2026-03-24 20:03:17.208503",
+        "data": {
+            "message": "Genesis Block"
+        },
+        "previous_hash": "0",
+        "hash": "27d8ed04ed217ca34053eb0f510cee6a13bdd4795a26f09164b7536cd82b18c4"
+    },
+    {
+        "index": 1,
+        "timestamp": "2026-03-24 20:06:41.504474",
+        "data": {
+            "transaction": {
+                "amount_gbp": 1500,
+                "hour_of_day": 3,
+                "merchant_category": "electronics",
+                "payment_method": "credit_card",
+                "transaction_velocity": 13,
+                "location_risk": 9
+            },
+            "result": {
+                "prediction": 1,
+                "label": "fraud",
+                "confidence_not_fraud": 0.0,
+                "confidence_fraud": 1.0
+            }
+        },
+        "previous_hash": "27d8ed04ed217ca34053eb0f510cee6a13bdd4795a26f09164b7536cd82b18c4",
+        "hash": "2165d21a345b1878c1502f24ee7a8fdeee42e9ea34196c7baa8d7f49bb087927"
+    },
+    {
+        "index": 2,
+        "timestamp": "2026-03-24 20:09:28.242664",
+        "data": {
+            "transaction": {
+                "amount_gbp": 1500,
+                "hour_of_day": 3,
+                "merchant_category": "electronics",
+                "payment_method": "credit_card",
+                "transaction_velocity": 13,
+                "location_risk": 9
+            },
+            "result": {
+                "prediction": 1,
+                "label": "fraud",
+                "confidence_not_fraud": 0.0,
+                "confidence_fraud": 1.0
+            }
+        },
+        "previous_hash": "2165d21a345b1878c1502f24ee7a8fdeee42e9ea34196c7baa8d7f49bb087927",
+        "hash": "d5336a143ec54f9188b054b641a26e333c8d1fb7ad2693838b1ef6a00bd6821f"
+    },
+    {
+        "index": 3,
+        "timestamp": "2026-03-24 20:09:29.400588",
+        "data": {
+            "transaction": {
+                "amount_gbp": 1500,
+                "hour_of_day": 3,
+                "merchant_category": "electronics",
+                "payment_method": "credit_card",
+                "transaction_velocity": 13,
+                "location_risk": 9
+            },
+            "result": {
+                "prediction": 1,
+                "label": "fraud",
+                "confidence_not_fraud": 0.0,
+                "confidence_fraud": 1.0
+            }
+        },
+        "previous_hash": "d5336a143ec54f9188b054b641a26e333c8d1fb7ad2693838b1ef6a00bd6821f",
+        "hash": "099cce6c97c5ce2e01ee3095ce69c88b0ceeea0fadaafccc235277097d30f8c4"
+    }
+]
